@@ -1,0 +1,60 @@
+@font-face{
+	font-family: "HelveticaNeueCyr-Medium";
+	font-display: swap;
+	src: url(../fonts/font_HelveticaNeue-Medium.woff),
+	url(../fonts/HelveticaNeue-Medium.woff2);
+}
+@font-face{
+	font-family: "HelveticaNeueCyrBold";
+	font-display: swap;
+	src: url(../fonts/HelveticaNeueCyr-Bold.woff),
+	url(../fonts/HelveticaNeueCyr-Bold.woff2);
+}
+@font-face{
+	font-family: "HelveticaNeueCyrRoman";
+	font-display: swap;
+	src: url(../fonts/HelveticaNeueCyr-Roman.woff),
+}
+@font-face{
+	font-family: "HelveticaNeueCyr-Light";
+	font-display: swap;
+	src: url(../fonts/HelveticaNeueCyr-Light.woff),
+}
+@font-face{
+	font-family: "Arial";
+	font-display: swap;
+	src: url(../fonts/ArialMT.woff),
+}
+@font-face{
+	font-family: "ArialBold";
+	font-display: swap;
+	src: url(../fonts/Arial-BoldMT.woff),
+	url(../fonts/Arial-MT-Bold.woff2);	
+}
+@font-face{
+	font-family: "Colber";
+	font-display: swap;
+	src: url(../fonts/Corbel.woff),
+	url(../fonts/Corbel.woff2);	
+}
+@font-face{
+	font-family: "SegoeBold";
+	font-display: swap;
+	src: url(../fonts/SegoeUIBold.woff),
+	url(../fonts/SegoeUIBold.woff2);	
+}
+@font-face{
+	font-family: "Segoe";
+	font-display: swap;
+	src: url(../fonts/SegoeUI.woff),
+	url(../fonts/SegoeUI.woff2);	
+}
+$font-menu: "HelveticaNeueCyr-Medium", sans-serif;
+$font-text: "Arial", sans-serif;
+$font-textbold: "ArialBold", sans-serif;
+$font-colber: "Colber", sans-serif;
+$font-title: "SegoeBold", sans-serif;
+$font-norm: "Segoe", sans-serif;
+$font-Bold:"HelveticaNeueCyrBold", sans-serif;
+$font-roman: "HelveticaNeueCyrRoman", sans-serif;
+$font-light: "HelveticaNeueCyr-Light", sans-serif;
