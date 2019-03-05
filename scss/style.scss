@@ -1206,6 +1206,11 @@ height: 180px;
 }
 }
 @media screen and (max-width: 510px){
+.logo{
+img{
+	width: 80%;
+}
+}
 .topfixed{
 	padding: 0 20px;
 }
