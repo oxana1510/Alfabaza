@@ -14,6 +14,7 @@ var url=document.location.href; $.each($(".nav-menu a"),function(){
  
 
 $('a').on('click touchend', function(e) {
+    e.preventDefault();
     var el = $(this);
     var link = el.attr('href');
     window.location = link;
